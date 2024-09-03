@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY . .
 
-RUN go build -o main .
+RUN go build -ldflags="-s -w" -o main .
 
 FROM scratch
 
