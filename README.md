@@ -1,0 +1,1 @@
+https://hub.docker.com/repository/docker/ramonivesdev/fullcycle/general
